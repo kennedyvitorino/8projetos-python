@@ -17,5 +17,5 @@ uma sequencia numerica usando o método recusivo.</p>
 <p>Faça uma pergunta para o programa e ele terá que retornar uma resposta.</p>
 
 <h1>Projeto 7 e 8 - Jogo de Aventura:</h1>
-<p>Um jogo de decisões onde eu terei que criar vários finais diferentes
+<p>Um jogo de decisões onde vamos ter que criar vários finais diferentes
 baseado nas respostas que foram dadas.</p>
