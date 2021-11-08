@@ -1,5 +1,4 @@
 # 8 Projetos feito em Python
-# Vídeo original que deu a ideia para os projetos
 
 # Os Projetos foram feitos usando as seguintes tecnologias:
 »» Python \
