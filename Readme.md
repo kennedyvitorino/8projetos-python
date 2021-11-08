@@ -1,7 +1,7 @@
 <h1> 8 Projetos bem simples em Python</h1>
 
 <h3> Os Projetos foram feitos usando as seguintes tecnologias: </h3>
-<h4> »» Python <br> »» PySimpleGUI <br> »» VS Code <br> »» Random com função randint </h4>
+<h4> »» Python <br> »» PySimpleGUI <br> »» VS Code <br> »» Random com função randint() </h4>
 
 <h1>Projetos 1 e 2 - Simulador de Jogo de Dados:</h1>
 <p>Neste pequeno programa vamo aprender a simular um "dado", ou seja,
