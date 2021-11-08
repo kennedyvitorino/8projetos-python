@@ -2,11 +2,14 @@
 # Objetivo: Criar um algorítmo que gera um valor
 # aleatório e eu tenho que ficar tentando o número até acertar.
 # objetivo: Criar um algorítimo que gera um valor aleatório e eu tenho que ficar tentando o número até eu acertar
-import random
+from random import randint
 import PySimpleGUI as sg
 
 
 class ChuteONumero:
+    evento: object
+    valores: object
+
     def __init__(self):
         self.valor_aleatorio = 0
         self.valor_minimo = 1
@@ -21,9 +24,10 @@ class ChuteONumero:
             [sg.Button('Chutar!')],
             [sg.Output(size=(39, 10))]
         ]
+
         # criar uma janela
         self.janela = sg.Window('Chute o numero!', layout=layout)
-        self.GerarNumeroAleatorio()
+        self.gerar_numero_aleatorio()
         try:
             while True:
                 # receber os valores
@@ -45,10 +49,10 @@ class ChuteONumero:
                             break
         except:
             print('Favor digitar apenas números!')
-            self.Iniciar()
+            self.iniciar()
 
-    def GerarNumeroAleatorio(self):
-        self.valor_aleatorio = random.randint(self.valor_minimo, self.valor_maximo)
+    def gerar_numero_aleatorio(self):
+        self.valor_aleatorio = randint(self.valor_minimo, self.valor_maximo)
 
 
 chute = ChuteONumero()
