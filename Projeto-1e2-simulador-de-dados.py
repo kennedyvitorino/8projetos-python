@@ -5,6 +5,9 @@ import PySimpleGUI as sg
 
 
 class SimuladorDado:
+    eventos: object
+    valores: object
+
     def __init__(self):
         self.valor_minimo = 1
         self.valor_maximo = 6
@@ -22,7 +25,7 @@ class SimuladorDado:
         # Fazer alguma coisa com esses valores
         try:
             if self.eventos == 'Sim':
-                self.GerarValorDoDado()
+                self.gerar_valor_dado()
             elif self.eventos == 'Não':
                 print('Agradecemos a sua participação!')
             else:
@@ -30,7 +33,7 @@ class SimuladorDado:
         except (Exception,):
             print('Ocorreu um erro ao receber sua resposta')
 
-    def GerarValorDoDado(self):
+    def gerar_valor_dado(self):
         print(randint(self.valor_minimo, self.valor_maximo))
 
 
