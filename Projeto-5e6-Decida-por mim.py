@@ -21,7 +21,6 @@ class DecidaPorMim:
             [sg.Output(size=(45, 10))],
             [sg.Button('Decida por mim')]
         ]
-
         # Criar a janela
         self.janela = sg.Window('Decida por mim', layout=layout)
         while True:
