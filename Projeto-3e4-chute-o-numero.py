@@ -31,7 +31,7 @@ class ChuteONumero:
                 # Fazer alguma coisa com estes valores
                 if self.evento == 'Chutar!':
                     self.valor_do_chute = self.valores['ValorChute']
-                    while self.tentar_novamente == True:
+                    while self.tentar_novamente:
                         if int(self.valor_do_chute) > self.valor_aleatorio:
                             print('Chute um valor mais baixo!')
                             break
