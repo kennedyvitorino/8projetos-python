@@ -26,13 +26,13 @@ class JogoAventura:
             if resposta_1B == 'espada':
                 print(self.historia_final1)
             if resposta_1B == 'escudo':
-                print('..')
+                print(self.historia_final2)
         if resposta1 == 's':
             resposta_1B = input(self.pergunta3)
             if resposta_1B == 'linha de frente':
-                print('...')
+                print(self.historia_final3)
             if resposta_1B == 'tatico':
-                print('...')
+                print(self.historia_final4)
 
 
 jogo = JogoAventura()
