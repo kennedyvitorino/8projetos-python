@@ -5,6 +5,9 @@ import PySimpleGUI as sg
 
 
 class DecidaPorMim:
+    eventos: object
+    valores: object
+
     def __init__(self):
         self.resposta = [
             'Com certeza você deve fazer isso!',
